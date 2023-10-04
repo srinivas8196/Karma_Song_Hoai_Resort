@@ -21,7 +21,7 @@ function sendEmail($recipientEmail, $recipientName, $subject, $body) {
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->Username   = 'res@karmaexperience.com';
-        $mail->Password   = 'bkdjqppfacngnnqp';
+        $mail->Password   = 'Password';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465; 
 
