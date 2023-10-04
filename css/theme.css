@@ -1,0 +1,143 @@
+html,body{
+    background:none;
+
+    background-color:rgb(102, 102, 102);
+}
+
+#header{
+    background-color:rgb(255, 255, 255);
+}
+
+.site-header{
+    background-color:rgb(255, 255, 255);
+}
+
+.site-nav a{
+    color:rgb(162, 196, 201);
+}
+
+h1{
+    color:rgb(211, 53, 108);
+}
+
+h2{
+    color:rgb(211, 53, 108);
+}
+
+h3{
+    color:rgb(211, 53, 108);
+}
+
+h4{
+    color:rgb(211, 53, 108);
+}
+
+h5{
+    color:#000000;
+}
+
+h6{
+    color:#000000;
+}
+
+.star-rating i {
+    color:rgb(255, 153, 0);
+}
+
+#facilities-list i{
+    color:rgb(255, 153, 0);
+}
+
+.price-list li {
+    color:rgb(255, 153, 0);
+}
+
+.panel {
+    background-color:rgb(255, 255, 255);
+}
+
+.package-price{
+    color:rgb(255, 153, 0)!important;
+}
+
+.btn-default{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-default:hover{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-default:active, .btn-default.active, .btn-default:focus{
+    background-color:rgb(135, 196, 206);
+    border-color:rgb(135, 196, 206);
+}
+
+.btn-primary{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-primary:hover{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-primary:active, .btn-primary.active, .btn-primary:focus{
+    background-color:rgb(137, 228, 244);
+    border-color:rgb(137, 228, 244);
+}
+
+.btn-success{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-success:hover{
+    background-color:rgb(98, 176, 189);
+    border-color:rgb(98, 176, 189);
+}
+
+.btn-success:active, .btn-success.active, .btn-success:focus{
+    background-color:rgb(140, 224, 238);
+    border-color:rgb(140, 224, 238);
+}
+
+.primary-color{
+    color:rgb(211, 53, 108);
+}
+
+td.limited a{
+    color: white!important;
+    background: rgb(106, 168, 79)!important;
+}
+
+td.available a{
+    color: white!important;
+    background: rgb(106, 168, 79)!important;
+}
+
+td.sold-out span{
+    background: rgb(234, 167, 234)!important;
+}
+
+td.request a{
+    color: white!important;
+    background: rgb(74, 134, 232)!important;
+}
+
+#dropdown-navbar, .dropdown-sub-nav{
+    background-color: ;
+    border-color: ;
+}
+
+#dropdown-navbar a{
+    font-weight: normal;
+    color: rgb(74, 134, 232);
+}
+
+.price-info .discount{
+    color: rgb(211, 53, 108);
+}

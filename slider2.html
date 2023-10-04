@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Fancybox</title>
+
+    <!-- Include Fancybox CSS (via CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    
+    <!-- Owl Carousel CSS (Replace with your path or use CDN) -->
+    <link rel="stylesheet" href="path/to/owl-carousel/css/owl.carousel.min.css">
+    
+    <!-- Your custom CSS styles (if any) -->
+
+    <!-- Include jQuery (required for Fancybox and Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Include Fancybox JavaScript (via CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
+    <!-- Initialize Fancybox -->
+    <script>
+        $(document).ready(function() {
+            $("[data-fancybox]").fancybox({
+                // Customize Fancybox options if needed
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="col-12 col-xl-3 col-lg-4 col-md-4 d-none d-sm-none d-md-block">
+        <!-- Main Image Gallery -->
+        <div id="big" class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="./images/Song_Hoai/Song Hoai-Gallery-06.webp" data-fancybox="image-group">
+                    <img src="./images/Song_Hoai/Song Hoai-Gallery-06.webp" alt="">
+                </a>
+            </div>
+            <!-- Repeat this pattern for other images -->
+        </div>
+
+        <!-- Thumbnail Carousel -->
+        <div id="thumbs" class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="./images/Song_Hoai/Song Hoai-Gallery-06.webp" data-fancybox="image-group">
+                    <img src="./images/Song_Hoai/Song Hoai-Gallery-06.webp" alt="">
+                </a>
+            </div>
+            <!-- Repeat this pattern for other thumbnail images -->
+        </div>
+    </div>
+
+    <!-- Owl Carousel JavaScript (Replace with your path or use CDN) -->
+    <script src="path/to/owl-carousel/js/owl.carousel.min.js"></script>
+    
+    <!-- Your custom JavaScript (if any) -->
+</body>
+</html>
